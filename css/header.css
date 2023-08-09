@@ -1,0 +1,27 @@
+.header-block {
+	text-align: center;
+	letter-spacing: 0.2px;
+}
+.header-block__title {
+	line-height: 142%;
+	font-weight: 700;
+	font-size: 40px;
+}
+.header-block__title:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+.header-block__sub-title {
+	line-height: 142%;
+	
+}
+@media (max-width: 992px) {
+	.header-block__title {
+		font-size: 35px;
+	}
+}
+@media (max-width: 767px) {
+	.header-block__title {
+		font-size: 30px;
+	}
+}
+
